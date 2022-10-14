@@ -1,1 +1,1 @@
-Contans C program on variables, if, else, and while statements.
+C program variables and conditional statements
