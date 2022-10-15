@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-entry point of the program
+ *main-program entry point.
  *
- * Return:0 no error returned
+ *Return:0 if no error, non-zero value if error.
  */
 int main(void)
 {
@@ -24,7 +24,8 @@ int main(void)
 	}
 	else if (ldigit < 6 && ldigit != 0)
 	{
-		printf("Last digit of %d is %d andis less than 6 and not 0\n", n, ldigit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldigit);
 	}
 	return (0);
 }
+
